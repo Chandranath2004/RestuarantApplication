@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Offers - Combos</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ff4500;
+            color: white;
+            padding: 20px 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .combos-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .combo-item {
+            background-color: white;
+            border-radius: 12px;
+            margin: 15px;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            width: 300px;
+        }
+
+        .combo-item:hover {
+            transform: scale(1.05);
+        }
+
+        .combo-item img {
+            width: 100%;
+            height: 250px;
+            border-radius: 8px;
+        }
+
+        .combo-title {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .combo-price {
+            color: #ff4500;
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+        .combo-description {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .add-to-cart {
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .add-to-cart:hover {
+            background-color: #e03e00;
+        }
+    </style>
+</head>
+<body>
+    <header>Special Combo Offers</header>
+
+    <div class="combos-container">
+        <div class="combo-item">
+            <img src="enu.jpg" alt="Combo 1">
+            <div class="combo-title">Family Meal Combo</div>
+            <div class="combo-price">$25.99</div>
+            <div class="combo-description">Includes: Chicken Curry, Rice, Naan, Salad, Dessert.</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="combo-item">
+            <img src="FKB.jpg" alt="Combo 2">
+            <div class="combo-title">Burger Blast Combo</div>
+            <div class="combo-price">$15.99</div>
+            <div class="combo-description">Includes: 2 Burgers, Fries, Soft Drink.</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="combo-item">
+            <img src="Br.jpg" alt="Combo 3">
+            <div class="combo-title">Dosai Combo</div>
+            <div class="combo-price">$29.99</div>
+            <div class="combo-description">Includes: Masala Dosai, Chutneys, Sambar, Filter Coffee.</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="combo-item">
+            <img src="lunch.jpg" alt="Combo 4">
+            <div class="combo-title">Mini Breakfast Combo</div>
+            <div class="combo-price">$22.99</div>
+            <div class="combo-description">Includes: Idly, Vada, Pongal, Sambar, Chutney.</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="combo-item">
+            <img src="Ba.jpg" alt="Combo 5">
+            <div class="combo-title">Bahubali Meal</div>
+            <div class="combo-price">$18.99</div>
+            <div class="combo-description">Includes: Biryani, Chicken 65, Parotta, Curry, Dessert.</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>

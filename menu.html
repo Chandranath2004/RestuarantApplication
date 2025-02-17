@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baygrill - Food Menu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://images.unsplash.com/photo-1554118811-1e0d58224f24') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+        }
+
+        header {
+            
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-style: italic;
+        }
+
+        .menu {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu:hover {
+            background-color: #e65c00;
+        }
+
+        .food-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px 10px;
+        }
+
+        .food-category {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 12px;
+            margin: 15px;
+            padding: 20px;
+            width: 280px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.4s ease;
+            background-size: cover;
+            background-position: center;
+            color: black;
+        }
+
+        .food-category:hover {
+            transform: translateY(-8px);
+        }
+
+        .breakfast {background-color: #333; }
+        .lunch { background-color: #333; }
+        .dinner { background-color: #333;}
+
+        .food-category h1 {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ff6600;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Baygrill - Food Menu</h1>
+        <button class="menu" onclick="location.href='Food.html'">Let's Try</button>
+    </header>
+
+    <div class="food-container">
+        <div class="food-category breakfast">
+            <h1>Breakfast</h1>
+            <ul>
+                <li>Idly</li>
+                <li>Pongal</li>
+                <li>Masala Dosai</li>
+                <li>Upma</li>
+                <li>Poori</li>
+            </ul>
+        </div>
+
+        <div class="food-category lunch">
+            <h1>Lunch</h1>
+            <ul>
+                <li>Chicken Biryani</li>
+                <li>Mutton Biryani</li>
+                <li>Variety Rice</li>
+                <li>Chicken 65</li>
+                <li>Fish Fry</li>
+            </ul>
+        </div>
+
+        <div class="food-category dinner">
+            <h1>Dinner</h1>
+            <ul>
+                <li>Parotta</li>
+                <li>Veechu Parotta</li>
+                <li>Kothu Parotta</li>
+                <li>Chicken Pepper Rice</li>
+                <li>Noodles</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
